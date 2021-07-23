@@ -1,4 +1,4 @@
-# org.openapitools.client - Kotlin client library for Finflux
+# Kotlin client library for Finflux authentication
 
 ## Requires
 
