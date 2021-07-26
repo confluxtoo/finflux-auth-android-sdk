@@ -1,9 +1,9 @@
-# org.openapitools.client - Kotlin client library for Finflux
+# co.finflux.openapi - Kotlin client library for Finflux-Authentication
 
 ## Requires
 
-* Kotlin 1.3.61
-* Gradle 4.9
+* Kotlin 1.4.30
+* Gradle 6.8.3
 
 ## Build
 
@@ -35,21 +35,16 @@ All URIs are relative to *https://develop.finflux.io/fineract-provider/api*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AuthenticationApi* | [**fetchAccessToken**](docs/AuthenticationApi.md#fetchaccesstoken) | **POST** /oauth/token | Fetch Access Token
-*AuthenticationApi* | [**fetchRefreshAccessToken**](docs/AuthenticationApi.md#fetchrefreshaccesstoken) | **POST** /oauth/tokens | Fetch Refresh Access Token
-*AuthenticationApi* | [**generatePublicKey**](docs/AuthenticationApi.md#generatepublickey) | **POST** /v1/cryptography/login/generatepublickey | Generate Public Key
+*AuthenticationApi* | [**fetchAccessToken**](docs/AuthenticationApi.md#fetchaccesstoken) | **POST** oauth/token | Fetch Access Token
 
 
 <a name="documentation-for-models"></a>
 ## Documentation for Models
 
- - [org.openapitools.client.model.AccessTokenResponse](docs/AccessTokenResponse.md)
- - [org.openapitools.client.model.ApiErrorMessageArg](docs/ApiErrorMessageArg.md)
- - [org.openapitools.client.model.ApiGlobalErrorResponse](docs/ApiGlobalErrorResponse.md)
- - [org.openapitools.client.model.ApiParameterError](docs/ApiParameterError.md)
- - [org.openapitools.client.model.PublicKeyResponse](docs/PublicKeyResponse.md)
- - [org.openapitools.client.model.RefreshTokenPayload](docs/RefreshTokenPayload.md)
- - [org.openapitools.client.model.UserPasswordPayload](docs/UserPasswordPayload.md)
+ - [co.finflux.openapi.AccessTokenResponse](docs/AccessTokenResponse.md)
+ - [co.finflux.openapi.ApiErrorMessageArg](docs/ApiErrorMessageArg.md)
+ - [co.finflux.openapi.ApiGlobalErrorResponse](docs/ApiGlobalErrorResponse.md)
+ - [co.finflux.openapi.ApiParameterError](docs/ApiParameterError.md)
 
 
 <a name="documentation-for-authorization"></a>
