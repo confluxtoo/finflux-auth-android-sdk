@@ -1,4 +1,4 @@
-# co.finflux.openapi - Kotlin client library for Finflux-Authentication
+# co.finflux.openapi.auth - Kotlin client library for Finflux-Authentication
 
 ## Requires
 
@@ -41,10 +41,10 @@ Class | Method | HTTP request | Description
 <a name="documentation-for-models"></a>
 ## Documentation for Models
 
- - [co.finflux.openapi.AccessTokenResponse](docs/AccessTokenResponse.md)
- - [co.finflux.openapi.ApiErrorMessageArg](docs/ApiErrorMessageArg.md)
- - [co.finflux.openapi.ApiGlobalErrorResponse](docs/ApiGlobalErrorResponse.md)
- - [co.finflux.openapi.ApiParameterError](docs/ApiParameterError.md)
+ - [co.finflux.openapi.auth.AccessTokenResponse](docs/AccessTokenResponse.md)
+ - [co.finflux.openapi.auth.ApiErrorMessageArg](docs/ApiErrorMessageArg.md)
+ - [co.finflux.openapi.auth.ApiGlobalErrorResponse](docs/ApiGlobalErrorResponse.md)
+ - [co.finflux.openapi.auth.ApiParameterError](docs/ApiParameterError.md)
 
 
 <a name="documentation-for-authorization"></a>

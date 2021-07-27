@@ -15,9 +15,9 @@ Fetch Access Token using User-Password or Refresh Token
 ### Example
 ```kotlin
 // Import classes:
-//import co.finflux.openapi.*
-//import co.finflux.openapi.infrastructure.*
-//import co.finflux.openapi.*
+//import co.finflux.openapi.auth.*
+//import co.finflux.openapi.auth.infrastructure.*
+//import co.finflux.openapi.auth.*
 
 val apiClient = ApiClient()
 val webService = apiClient.createWebservice(AuthenticationApi::class.java)
