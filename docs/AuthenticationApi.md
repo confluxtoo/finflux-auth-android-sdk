@@ -28,8 +28,10 @@ val username : kotlin.String = conflux // kotlin.String | required when grant_ty
 val password : kotlin.String = password_example // kotlin.String | required when grant_type is password
 val otpreferenceid : kotlin.String = otpreferenceid_example // kotlin.String | required when grant_type is mobile_otp
 val token : kotlin.String = token_example // kotlin.String | required when grant_type is mobile_otp
+val deviceInformation : kotlin.String = deviceInformation_example // kotlin.String | Device Information Refer DeviceInformation
+val body : kotlin.Any = Object // kotlin.Any | 
 
-val result : AccessTokenResponse = webService.fetchAccessToken(clientId, clientSecret, grantType, username, password, otpreferenceid, token)
+val result : AccessTokenResponse = webService.fetchAccessToken(clientId, clientSecret, grantType, username, password, otpreferenceid, token, deviceInformation, body)
 ```
 
 ### Parameters
@@ -43,6 +45,8 @@ Name | Type | Description  | Notes
  **password** | **kotlin.String**| required when grant_type is password | [optional]
  **otpreferenceid** | **kotlin.String**| required when grant_type is mobile_otp | [optional]
  **token** | **kotlin.String**| required when grant_type is mobile_otp | [optional]
+ **deviceInformation** | **kotlin.String**| Device Information Refer DeviceInformation | [optional]
+ **body** | **kotlin.Any**|  | [optional]
 
 ### Return type
 
@@ -54,6 +58,6 @@ No authorization required
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: application/json
+ - **Content-Type**: application/json
+ - **Accept**: application/json, application/xml
 

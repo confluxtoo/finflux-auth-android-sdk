@@ -45,6 +45,7 @@ Class | Method | HTTP request | Description
  - [co.finflux.openapi.auth.ApiErrorMessageArg](docs/ApiErrorMessageArg.md)
  - [co.finflux.openapi.auth.ApiGlobalErrorResponse](docs/ApiGlobalErrorResponse.md)
  - [co.finflux.openapi.auth.ApiParameterError](docs/ApiParameterError.md)
+ - [co.finflux.openapi.auth.DeviceInformation](docs/DeviceInformation.md)
 
 
 <a name="documentation-for-authorization"></a>

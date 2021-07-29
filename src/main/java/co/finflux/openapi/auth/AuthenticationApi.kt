@@ -24,9 +24,11 @@ interface AuthenticationApi {
      * @param password required when grant_type is password (optional)
      * @param otpreferenceid required when grant_type is mobile_otp (optional)
      * @param token required when grant_type is mobile_otp (optional)
+     * @param deviceInformation Device Information Refer DeviceInformation (optional)
+     * @param body  (optional)
      * @return [Call]<[AccessTokenResponse]>
      */
     @POST("oauth/token")
-    fun fetchAccessToken(@Query("client_id") clientId: kotlin.String, @Query("client_secret") clientSecret: kotlin.String, @Query("grant_type") grantType: kotlin.String, @Query("username") username: kotlin.String? = null, @Query("password") password: kotlin.String? = null, @Query("otpreferenceid") otpreferenceid: kotlin.String? = null, @Query("token") token: kotlin.String? = null): Single<AccessTokenResponse>
+    fun fetchAccessToken(@Query("client_id") clientId: kotlin.String, @Query("client_secret") clientSecret: kotlin.String, @Query("grant_type") grantType: kotlin.String, @Query("username") username: kotlin.String? = null, @Query("password") password: kotlin.String? = null, @Query("otpreferenceid") otpreferenceid: kotlin.String? = null, @Query("token") token: kotlin.String? = null, @Header("Device-Information") deviceInformation: kotlin.String? = null, @Body body: kotlin.Any? = null): Single<AccessTokenResponse>
 
 }

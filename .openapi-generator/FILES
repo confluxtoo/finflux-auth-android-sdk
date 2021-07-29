@@ -6,6 +6,7 @@ docs/ApiErrorMessageArg.md
 docs/ApiGlobalErrorResponse.md
 docs/ApiParameterError.md
 docs/AuthenticationApi.md
+docs/DeviceInformation.md
 gradle/wrapper/gradle-wrapper.jar
 gradle/wrapper/gradle-wrapper.properties
 gradlew
@@ -16,6 +17,7 @@ src/main/java/co/finflux/openapi/auth/ApiErrorMessageArg.kt
 src/main/java/co/finflux/openapi/auth/ApiGlobalErrorResponse.kt
 src/main/java/co/finflux/openapi/auth/ApiParameterError.kt
 src/main/java/co/finflux/openapi/auth/AuthenticationApi.kt
+src/main/java/co/finflux/openapi/auth/DeviceInformation.kt
 src/main/java/co/finflux/openapi/auth/infrastructure/ApiClient.kt
 src/main/java/co/finflux/openapi/auth/infrastructure/BigDecimalAdapter.kt
 src/main/java/co/finflux/openapi/auth/infrastructure/BigIntegerAdapter.kt
